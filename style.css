@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  margin-bottom: 77px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+/* Neste caso não tem a virgula, pois eu quero modificar o span que está dentro do h1, e não
+quero modificar os outros span!
+Se eu colocar a virgula vou estar alterando todos, e neste caso eu só quero o que está dentro do h1 */
+
+span, a {
+  color: #FF9900;
+}
+
+p, #footer {
+  color: #7D7987;
+  font-size: 14px; 
+  line-height: 28px;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+/* "pegue o a que anterior dele tenha um a, e aplique uma margem do lado esquerdo de 28px"  */
+
+#line {
+  width: 568px;
+  height: 0;
+  margin: 0 auto 8px;
+  border: 1px solid #ECEFF2;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
